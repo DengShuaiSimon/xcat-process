@@ -11,7 +11,8 @@
 
     Add/Refine N cases in this pull request.
     This/These case(s) is/are added/refined for issue#xxxx / feature#xxxx.
-
+    This pull request is for task#xxxx
+    
     [Case index]
     Case Name: xxxxx
     description: introduce the purpose of current case,  which scenario this cases is valid.  For example, For "all xcat verision", ">2.13.3", "<=2.12.3", ">2.10.1 and <=2.12.4".  If need specific hardware configuration, for example specific hardware device or specific network setting. 
@@ -21,6 +22,7 @@
  
       Refine 2 cases in this pull request
       These 2 cases are refined for issue #1234
+      This pull request is for task#1235
 
       [case 1]
       Case Name: rpower_stat
