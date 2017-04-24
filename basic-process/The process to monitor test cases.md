@@ -16,7 +16,7 @@ To monitor the adding/refining test cases tasks:
 
 * The title of the task shall like **add/refine test cases for issue xxxx: \<the digest of the issue xxx\>** or **add/refine test cases for feature xxxx**. 
     
-* After applying a pull request, the creator of the pull request **shall add a comment** like `This task is finished with pull request xxx` in the task issue.
+
     
 * The added test cased **must** be able to run with xcattest.
     
@@ -25,6 +25,8 @@ To monitor the adding/refining test cases tasks:
     pls **note** that:
  
     * the original defect number shall be referenced in its description.
+    
+    * The task issue number shall also be referenced in the description of the pull request.
       
     * The **issue number** in the **title and description** of the pull request **shall be** the original defect number that the test case is adding or refining for.
        **Shall Not be** the task issue number. 
