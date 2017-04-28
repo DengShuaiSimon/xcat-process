@@ -1,27 +1,33 @@
-The pull request is usually for a new feature or bug fixing.
-To make the pull request easier to read for the reviewer and anyone that want to review, we agree to have a rule to follow for applying pull request:
+Pull requests are used for making changes to the main xcat2/xcat-core project. 
+
+The following rules are created to ensure that we have enough information in the pull request so that it helps reviewers understand the changes that are being proposed. 
  
+## Title of the Pull Request
 
-* For title of pull request: the purpose of the pull request
+* Fixing an issue:  The title should be a short high level snip summarizing the changes that are made
 
-    * Fix an issue: the title shall include the issue number, and the title of the issue
+* For new function:  The title should describe the function that is implemented 
 
-    * For a new feature: the title may like "To support/enhance/refine xxx function/command/process"
+  Example: "Support/Enhance/Refine XXX Function/command/process"
 
-* For the description of the pull request
+## Description of the Pull Request
 
-    * For fixing an issue: 
+* Fixing Issues: 
 
-        * Reference the original issue - the objection
+    *  Add a reference to the issue:  "Resolves Issue #XXXX"
+    
+    * What is the modification, the main logic or the basic steps to fix the issue - How to
 
-        * What is the modification, the main logic or the basic steps to fix the issue - How to
+    * The original output, and the current result with fix - The result
 
-        * The original output, and the current result with fix - The result
+* For new feature: 
 
-    * For new feature: 
+     * What is include in this pull request - the objection
 
-        * What is include in this pull request - the objection
+     * What does the output look like?
 
-        * What does the output look like?
+## Review of Pull Request
 
-* The reviewer and all shall check whether a new pull request following this rule.
+* Reviewers should ensure that all the process has been followed and labels/milestones are set correctly before approving the pull request. 
+
+* Reviewers should NOT merge pull requests if there has not been "Approved" done in the review process and at least one person must have approved it using Github Approved Process. 
