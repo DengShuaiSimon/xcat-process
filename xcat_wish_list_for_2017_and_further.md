@@ -87,6 +87,18 @@ Switch to OPAL mode and operated through ipmi, used as MN in CORAL cluster
 
 * enhance xcatprobe to do health check within CORAL cluster==> TBD
 
+* The refinement of xCAT interfaces, make the deploy process easier for user ==>TBD
+   * refine go-xcat to include xcat configuration, and use xcatprobe to check it.
+   * copycds
+   * node definition ==> add makehosts, makedns in the end of mkdef/chdef
+   * enhance rinstall ==> able to work based on limited attributes, such as bmc, ip, mac.
+
+* Collect snapshot package and analyze the user habit ==> TBD
+ 
+* Connect xCAT notification with Social App ==>TBD
+   * set interface in xCAT, then xCAT can send out notification to that interface
+   * enable a daemon, then, Socail App can send message to that daemon to execute action
+   
 ## P3
 
 * New xCAT prototype with Python ==> TBD
