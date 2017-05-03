@@ -27,3 +27,6 @@ For the modification of interface either external or internal, the developer mus
     
 * [The process to monitor test cases](https://github.com/xcat2/xcat-process/blob/master/basic-process/The%20process%20to%20monitor%20test%20cases.md)
     
+### The Older xCAT wishlist
+
+[xCAT wish list for 2.10](https://github.com/xcat2/xcat-core/wiki/Wish_List_for_xCAT_2)
